@@ -76,6 +76,6 @@ if os.path.exists(output_video_file) and st.session_state['download']:
     st.session_state['download'] = False
     download_button.empty()
 
-st.video(r"D:\Desktop1\project\Fitcare\vision\ai-fitness-trainer-using-mediapipe\squats3d.mp4")
+st.video("squats3d.mp4")
 
 
