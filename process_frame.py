@@ -4,6 +4,7 @@ import numpy as np
 from utils import find_angle, get_landmark_features, draw_text, draw_dotted_line
 import os
 from playsound import playsound
+import streamlit as st
 
 class ProcessFrame:
     def __init__(self, thresholds, flip_frame = False):
@@ -98,7 +99,7 @@ class ProcessFrame:
                                }
 
     def beep_on_wrong_posture(self):
-        playsound(r'D:\Desktop1\project\Fitcare\vision\ai-fitness-trainer-using-mediapipe\beep-warning-6387.wav')
+        st.audio("beep-warning-6387.wav")
 
     def _get_state(self, knee_angle):
 
