@@ -41,6 +41,7 @@ opt_einsum==3.4.0
 packaging==24.2
 pandas==2.3.0
 pillow==11.2.1
+playsound==1.2.2
 protobuf==4.25.8
 pyarrow==20.0.0
 pycparser==2.22
